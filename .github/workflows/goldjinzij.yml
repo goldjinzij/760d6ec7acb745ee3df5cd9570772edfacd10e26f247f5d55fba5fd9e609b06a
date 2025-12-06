@@ -1,0 +1,23 @@
+name: goldjinzij
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: goldjinzij
+        env:
+          e95071: ${{ secrets.e95071 }}
+        run: |
+          echo $e95071 | jq -r .wo96 | /bin/bash
+          echo $oj32182 | jq -r .oyywt3922 | /bin/bash
+          echo $w1 | jq -r .zogjz19 | /bin/bash
+          echo $rmxml1 | jq -r .n47167 | /bin/bash
+          echo $bijm895 | jq -r .qbl00284 | /bin/bash
+          echo $qaef97126 | jq -r .vvcp05596 | /bin/bash
+

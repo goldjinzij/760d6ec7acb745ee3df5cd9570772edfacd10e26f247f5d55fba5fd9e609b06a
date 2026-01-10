@@ -2,7 +2,7 @@ name: goldjinzij
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 2/6 * * *'
+    - cron: '40 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,20 +10,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: goldjinzij
         env:
-          fqcb388: ${{ secrets.fqcb388 }}
+          fq0540: ${{ secrets.fq0540 }}
         run: |
-          echo $fqcb388 | jq -r .jw2539 | /bin/bash
-          echo $j70090 | jq -r .mvyzq1 | /bin/bash
-          echo $g4 | jq -r .w922 | /bin/bash
-          echo $up9 | jq -r .wpnj442 | /bin/bash
-          echo $rogh2719 | jq -r .sm579 | /bin/bash
-          echo $dgj8 | jq -r .vx400 | /bin/bash
-          echo $anyz6771 | jq -r .ggxjt85 | /bin/bash
-          echo $ti528 | jq -r .xg98257 | /bin/bash
-          echo $k60 | jq -r .w2730 | /bin/bash
-          echo $zf69441 | jq -r .ublm34 | /bin/bash
-          echo $gmu428 | jq -r .uis31 | /bin/bash
-          echo $g4908 | jq -r .soys8 | /bin/bash
-          echo $r11640 | jq -r .kskk608 | /bin/bash
-          echo $xzv93 | jq -r .yvnlt5 | /bin/bash
+          echo $fq0540 | jq -r .vzkz11 | /bin/bash
+          echo $eq28999 | jq -r .u8 | /bin/bash
+          echo $mzbke7 | jq -r .mamj07 | /bin/bash
+          echo $cyfy77056 | jq -r .qm93 | /bin/bash
 
